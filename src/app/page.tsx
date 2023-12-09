@@ -1,6 +1,7 @@
 const Page = () => {
+  const url = process.env.VERCEL_URL;
   return (
-    <div>Page</div>
+    <div>{url}</div>
   )
 }
 export default Page
